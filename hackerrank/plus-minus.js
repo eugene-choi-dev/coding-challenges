@@ -20,6 +20,7 @@ const rl = readline.createInterface({
     output: process.stdout,
     terminal: false
 })
+
 process.stdin.setEncoding('utf8')
 rl.question('insert numbers separated by space ', input => {
     const arr = input.toString().split(' ').map(Number)
